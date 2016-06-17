@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "740E414A1D11F3BF00098938"
-               BuildableName = "Flix2.app"
-               BlueprintName = "Flix2"
-               ReferencedContainer = "container:Flix2.xcodeproj">
+               BlueprintIdentifier = "61EC7039B75856A019C958E6CA583023"
+               BuildableName = "Pods_Flix2.framework"
+               BlueprintName = "Pods-Flix2"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "740E414A1D11F3BF00098938"
-            BuildableName = "Flix2.app"
-            BlueprintName = "Flix2"
-            ReferencedContainer = "container:Flix2.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "740E414A1D11F3BF00098938"
-            BuildableName = "Flix2.app"
-            BlueprintName = "Flix2"
-            ReferencedContainer = "container:Flix2.xcodeproj">
+            BlueprintIdentifier = "61EC7039B75856A019C958E6CA583023"
+            BuildableName = "Pods_Flix2.framework"
+            BlueprintName = "Pods-Flix2"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "740E414A1D11F3BF00098938"
-            BuildableName = "Flix2.app"
-            BlueprintName = "Flix2"
-            ReferencedContainer = "container:Flix2.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
