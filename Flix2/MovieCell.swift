@@ -37,5 +37,14 @@ class MovieCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
-}
+    
+    public func setStar (present: Bool, star: UIImageView) {
+        if (present) {
+            imageView!.image = UIImage(named:"gold-star-clipart-big_gold_star.png")
+            } else {
+                imageView!.image = UIImage(named:"imgres.png")
+            }
+            //UIImageView.hidden = false
+            //UIImageView.image
+        }
+    }

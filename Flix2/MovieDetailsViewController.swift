@@ -13,7 +13,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var infoButton: UIButton!
     var posterURL : String = ""
     var overviewText: String = ""
-    var titleText: String = ""
+    var titleText: String? = ""
     var ratingText: String = ""
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
@@ -41,11 +41,15 @@ class MovieDetailsViewController: UIViewController {
     }
     
     func openWebsite(){
-    UIApplication.sharedApplication().openURL(NSURL(fileURLWithPath: "http://obliquely.org.uk/blog/app"))
+        if let titleText = titleText {
+            print(titleText)
+            print("http://www.imdb.com/find?ref_=nv_sr_fn&q= \(titleText) &s=all")
+            let urltitleText = titleText.stringByReplacingOccurrencesOfString(" ", withString: "+")
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.imdb.com/find?ref_=nv_sr_fn&q=\(urltitleText)&s=all")!)
+        }
     }
     
     @IBAction func infoButtonPressed(sender: AnyObject) {
-//        infoButton.addTarget(self, action: #selector(openWebsite), forControlEvents: UIControlEvents.TouchUpInside)
         openWebsite()
     }
     

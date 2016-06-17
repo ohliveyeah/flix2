@@ -286,6 +286,25 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.posterView.setImageWithURL(imageURL!)
         cell.backgroundImage.setImageWithURL(imageURL!)
         
+        let rating = (filteredData![indexPath.row].valueForKeyPath("vote_average"))?.stringValue
+        
+        let ratingNumber = Double(rating!)
+        if (ratingNumber < 8) {
+            cell.star5.hidden = true
+        }
+        if (ratingNumber < 6) {
+            cell.star4.hidden = true
+        }
+        if (ratingNumber < 4) {
+            cell.star3.hidden = true
+        }
+        if (ratingNumber < 2) {
+            cell.star2.hidden = true
+        }
+        if (ratingNumber < 1) {
+            cell.star1.hidden = true
+        }
+        
         
 //        if (topRated!.contains(movie)) {
 //            cell.topRatedView.hidden = false;
@@ -348,7 +367,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         //print ("row \(indexPath.row)")
         return cell
-
+        
     }
     
     
@@ -370,6 +389,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         vc.ratingText = rating!
     }
 }
+
 
 
 

@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hLN-LL-atS">
-                                <rect key="frame" x="95" y="4" width="63" height="31"/>
+                                <rect key="frame" x="8" y="535" width="63" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="List View"/>
                                 <connections>
@@ -29,16 +29,8 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uv2-if-pmx">
-                                <rect key="frame" x="172" y="4" width="75" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Grid View"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czU-OS-JAD"/>
-                                </connections>
-                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="7PN-Sm-4i8">
-                                <rect key="frame" x="0.0" y="83" width="320" height="457"/>
+                                <rect key="frame" x="0.0" y="83" width="320" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.025328291223404298" green="0.025328291223404298" blue="0.025328291223404298" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UTk-Es-Mud">
@@ -48,7 +40,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <scrollView key="backgroundView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rbz-Wb-jqd">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="457"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="449"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </scrollView>
                                 <cells>
@@ -80,7 +72,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" id="DkB-MG-SbA">
-                                <rect key="frame" x="0.0" y="83" width="320" height="457"/>
+                                <rect key="frame" x="0.0" y="83" width="320" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.01487699468" green="0.01487699468" blue="0.01487699468" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="0.012539478059999999" green="0.0026025658779999998" blue="0.0020578104069999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -93,7 +85,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="222.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="HVU-Rx-RJA">
+                                                <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="HVU-Rx-RJA">
                                                     <rect key="frame" x="0.0" y="-29.5" width="325" height="251.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -130,24 +122,24 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7J9-56-yrx">
-                                                    <rect key="frame" x="0.0" y="188.5" width="32" height="33.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-star-clipart-big_gold_star.png" id="7J9-56-yrx">
+                                                    <rect key="frame" x="0.0" y="193" width="24" height="21.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="S1z-rG-B5a">
-                                                    <rect key="frame" x="32" y="188" width="32" height="33.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-star-clipart-big_gold_star.png" id="S1z-rG-B5a">
+                                                    <rect key="frame" x="23" y="193" width="24" height="21.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4Zz-1j-Cck">
-                                                    <rect key="frame" x="63" y="187" width="32" height="33.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-star-clipart-big_gold_star.png" id="4Zz-1j-Cck">
+                                                    <rect key="frame" x="49" y="192" width="23" height="22.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="aVL-FT-gij">
-                                                    <rect key="frame" x="94" y="186" width="32" height="33.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-star-clipart-big_gold_star.png" id="aVL-FT-gij">
+                                                    <rect key="frame" x="70" y="191" width="26" height="23.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hgm-v5-ZWo">
-                                                    <rect key="frame" x="127" y="186" width="32" height="33.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-star-clipart-big_gold_star.png" id="hgm-v5-ZWo">
+                                                    <rect key="frame" x="97" y="190" width="29" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -176,7 +168,7 @@
                                 <state key="normal" title="Settings"/>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Ai2-1I-TVu">
-                                <rect key="frame" x="112" y="540" width="121" height="29"/>
+                                <rect key="frame" x="100" y="538" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="New"/>
@@ -186,6 +178,14 @@
                                     <action selector="modeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ECb-VX-ytv"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uv2-if-pmx">
+                                <rect key="frame" x="239" y="536" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Grid View"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czU-OS-JAD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -275,6 +275,20 @@
             </objects>
             <point key="canvasLocation" x="943" y="244"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="CSC-ft-qAX">
+            <objects>
+                <viewController title="Settings" id="nrd-2V-XoH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SQV-px-KhT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bpg-C8-hMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295" y="246"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="tyU-oS-guG">
             <objects>
@@ -294,6 +308,9 @@
             <point key="canvasLocation" x="69" y="237"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gold-star-clipart-big_gold_star.png" width="8029" height="7795"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="J9I-FI-Y1t"/>
         <segue reference="pox-UR-Pds"/>
