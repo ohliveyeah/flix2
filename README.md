@@ -42,10 +42,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-First: https://imgur.com/qjxMjEi
-Second:
+<img src='https://s31.postimg.org/hee5rs54b/flixbasics.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <img src='https://i.imgur.com/0qsbE78.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Third:
+
 <img src='https://s32.postimg.org/hfwexbnfp/flixdetails.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
