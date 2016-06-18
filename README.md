@@ -42,9 +42,14 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+First: https://imgur.com/qjxMjEi
+Second:
+<img src='https://i.imgur.com/0qsbE78.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Third:
+<img src='https://s32.postimg.org/hfwexbnfp/flixdetails.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='http://imgur.com/qjxMjEi' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://imgur.com/qjxMjEi
+
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
