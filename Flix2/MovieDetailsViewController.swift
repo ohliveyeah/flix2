@@ -15,10 +15,12 @@ class MovieDetailsViewController: UIViewController {
     var overviewText: String = ""
     var titleText: String? = ""
     var ratingText: String = ""
+    var releaseDate: String = ""
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
 
+    @IBOutlet weak var releaseLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,7 @@ class MovieDetailsViewController: UIViewController {
         overviewLabel.text = overviewText
         titleLabel.text = titleText
         ratingLabel.text =  "Rating: " + ratingText + "/10"
+        releaseLabel.text = "Released: " + releaseDate
     }
     
 
