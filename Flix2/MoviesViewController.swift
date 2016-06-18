@@ -66,7 +66,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         moviesGridView.hidden = true
         listViewButton.hidden = true
-        catTableView.hidden = true
+       // catTableView.hidden = true
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refreshControlAction(_:)), forControlEvents: UIControlEvents.ValueChanged)
@@ -78,9 +78,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         moviesGridView.dataSource = self
         moviesGridView.delegate = self
-        
-        catTableView.dataSource = self
-        catTableView.delegate = self
+//        
+//        catTableView.dataSource = self
+//        catTableView.delegate = self
         
         searchBar.delegate = self
         filteredData = movies
@@ -360,10 +360,12 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         }
         if (tableView.restorationIdentifier == "CatTableView") {
             print ("Hello")
-            let cell = tableView.dequeueReusableCellWithIdentifier("CategoryCell", forIndexPath: indexPath) as! CatTableViewCell
-            cell.categoryLabel.text = categories.removeAtIndex(0)
-            print(categories.removeAtIndex(0))
-            print(cell.categoryLabel.text)
+                        let cell = tableView.dequeueReusableCellWithIdentifier("CategoryCell", forIndexPath: indexPath) as! CatTableViewCell
+            cell.categoryLabel.text = "row \(indexPath.row)"
+
+//            cell.categoryLabel.text = categories.removeAtIndex(0)
+//            print(categories.removeAtIndex(0))
+//            print(cell.categoryLabel.text)
             //cell.categoryLabel = categoryMap.popFirst()
             return cell
         }
